@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LuxePhone - Reparatie & Accessoires</title>
+  <style>
+    :root {
+      --primary: #1e1e2f;
+      --accent: #ff5722;
+      --light: #f5f5f5;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--light);
+      color: #333;
+    }
+    header {
+      background-color: var(--primary);
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+    }
+    nav {
+      background-color: #2d2d3d;
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      padding: 1em 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: var(--accent);
+    }
+    .hero {
+      background-color: white;
+      padding: 3em 1em;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+    }
+    .section {
+      max-width: 1000px;
+      margin: 2em auto;
+      padding: 1em;
+    }
+    .section h2 {
+      color: var(--primary);
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1em;
+      margin-top: 1em;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      padding: 1em;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      background-color: var(--primary);
+      color: white;
+      padding: 1em;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LuxePhone</h1>
+    <p>Dé specialist in smartphone- en tabletreparaties & accessoires</p>
+  </header>
+
+  <nav>
+    <a href="#diensten">Diensten</a>
+    <a href="#accessoires">Accessoires</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Snelle & Betrouwbare Reparaties</h1>
+    <p>Ons team van speciaal opgeleide medewerkers staat voor je klaar.</p>
+  </section>
+
+  <section id="diensten" class="section">
+    <h2>Onze Diensten</h2>
+    <p>Wij bieden professionele reparaties voor alle merken smartphones en tablets. Of het nu gaat om een gebarsten scherm, een batterijvervanging of softwareproblemen — wij lossen het voor je op.</p>
+  </section>
+
+  <section id="accessoires" class="section">
+    <h2>Accessoires & Gadgets</h2>
+    <div class="products">
+      <div class="product">
+        <h3>Apple Hoesjes</h3>
+        <p>Stijlvolle en beschermende hoesjes voor alle iPhone-modellen.</p>
+      </div>
+      <div class="product">
+        <h3>Android Hoesjes</h3>
+        <p>Perfecte pasvorm voor Samsung, Xiaomi, OnePlus en meer.</p>
+      </div>
+      <div class="product">
+        <h3>Oplaadaccessoires</h3>
+        <p>Kabels, adapters en draadloze laders van topkwaliteit.</p>
+      </div>
+      <div class="product">
+        <h3>Autohouders</h3>
+        <p>Veilig navigeren met stevige en slimme houders voor in de auto.</p>
+      </div>
+      <div class="product">
+        <h3>Bluetooth Speakers</h3>
+        <p>Kleine gadgets, groot geluid. Perfect voor onderweg of thuis.</p>
+      </div>
+      <div class="product">
+        <h3>Gadgets</h3>
+        <p>Leuke tech accessoires, ideaal als cadeau of voor jezelf.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Bezoek ons in de winkel of neem contact op via e-mail of telefoon.</p>
+    <p><strong>Email:</strong> info@luxephone.nl<br>
+       <strong>Tel:</strong> 06-12345678</p>
+  </section>
+
+  <footer>
+    &copy; 2025 LuxePhone. Alle rechten voorbehouden.
+  </footer>
+</body>
+</html>
